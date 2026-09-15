@@ -13,17 +13,15 @@ void main() {
     String kari=sc.nextLine();
     char ka=kari.charAt(0);
     System.out.print("Kérek egy egész számot: ");
-    String b=sc.nextLine();
-    int szam=Integer.parseInt(b);
+    int szam=sc.nextInt();
     System.out.print("Kérek egy másik egész számot: ");
-    String c=sc.nextLine();
-    int szamk=Integer.parseInt(b);
+    int szamk=sc.nextInt();
     System.out.print("Kérek egy számot: ");
-    String d=sc.nextLine();
-    double dup=Double.parseDouble(d);
+    double dup=sc.nextDouble();
     System.out.print("Kérek egy másik számot: ");
-    String e=sc.nextLine();
-    double dupla=Double.parseDouble(e);
+    double dupla=sc.nextDouble();
+
+    //feladatok
     String ujszo=szo+k+kari;
     IO.println("1:"+ujszo);
     int oszt=szam/szamk;
